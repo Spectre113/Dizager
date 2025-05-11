@@ -1,0 +1,129 @@
+.header__button {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition:
+      outline-offset 0.2s ease,
+      background-color 0.3s ease,
+      outline-color 0.3s ease,
+      color 0.3s ease,
+      transform 0s ease;
+}
+  
+.header__button::after {
+    content: ' ';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(112, 112, 112, 0.04);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+  
+.header__button:hover::after {
+    opacity: 1;
+}
+  
+.header__button--sber {
+    color: #4CAF50;
+}
+  
+.header__button--tinkoff {
+    color: #FFDD2D;
+}
+  
+.header__button--moex {
+    color: #E30613;
+}
+  
+.header__button:focus {
+    outline: 2px solid currentColor;
+    outline-offset: -6px;
+}
+  
+.header__button--active {
+    outline: 2px solid currentColor;
+    outline-offset: -3px;
+}
+
+/* main */
+.swiper-button-prev>svg>path, .swiper-button-next>svg>path {
+    transition: stroke 0.3s ease;
+}
+
+.swiper-button-prev:hover>svg>path, .swiper-button-next:hover>svg>path {
+    stroke: var(--chartsBtn);
+}
+
+.swiper-button-prev:focus-visible, .swiper-button-next:focus-visible {
+    outline: none;
+}
+
+.swiper-button-prev:focus-visible>svg>path, .swiper-button-next:focus-visible>svg>path {
+    stroke: var(--grey);
+}
+
+.swiper-button-prev:active>svg>path, .swiper-button-next:active>svg>path {
+    stroke: var(--white);
+}
+
+.lmenu__buy-btn {
+    transition:
+    background-color 0.3s ease,
+    border 0.3s ease,
+    transform 0.2s ease;
+}
+
+.lmenu__buy-btn:hover {
+    background-color: var(--chartsBackPrimary);
+}
+
+.lmenu__buy-btn:focus-visible {
+    outline: none;
+    border: 1px solid var(--borderColor);
+}
+
+.lmenu__buy-btn:active {
+    transform: scale(0.98);
+}
+
+.charts__button {
+    transition: color 0.3s ease, background-color, 0.3s ease, border 0.3s ease;
+}
+
+.charts__button:hover {
+    color: var(--white);
+    background-color: var(--borderColor);
+}
+
+.charts__button:focus-visible {
+    outline: none;
+    color: var(--grey);
+    border: 1px solid var(--borderColor);
+}
+
+.charts__button:active {
+    color: var(--white);
+    background-color: var(--borderColor);
+    border: 1px solid var(--grey);
+}
+
+.charts__button--active {
+    color: var(--white) !important;
+    background-color: var(--borderColor) !important;
+    border: 1px solid var(--grey) !important;
+}
+
+.metals__button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.metals__button:hover {
+    background-color: var(--borderColor);
+}
+
+.metals__button:focus-visible {
+    outline: none;
+    background-color: var(--chartsBack);
+    color: var(--white);
+}

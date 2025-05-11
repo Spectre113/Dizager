@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/states.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="icon" href="img/ico.ico" type="image/x-icon">
+    <title>Metal Prices</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container container-flex">
+            <div class="header__logo">
+                <div id="logo">
+                    
+                </div>
+            </div>
+            <div class="header__info block-flex">
+                <h2 class="header__title">
+                    Банки и биржи
+                </h2>
+                <ul class="list-reset header__list list-flex">
+                    <li class="header__item">
+                        <button data-bank="sber" class="btn-reset item-flex header__button header__button--sber">
+                            <img src="img/sber.svg" alt="Sber">
+                            <span>
+                                Сбер
+                            </span>
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button data-bank="tinkoff" class="btn-reset item-flex header__button header__button--tinkoff">
+                            <img src="img/tb.svg" alt="Sber">
+                            <span>
+                                Т Банк
+                            </span>
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button data-bank="moex" class="btn-reset item-flex header__button header__button--moex">
+                            <img src="img/moex.svg" alt="Sber">
+                            <span>
+                                MOEX
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container container-flex">
+            <section class="lmenu">
+                <div class="lmenu__info-block">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <h2 class="lmenu__title">
+                                        НОВОСТЬ
+                                    </h2>
+                                    <p class="lmenu__info">
+                                        Москва, 24&nbsp;апреля 2025 года&nbsp;&mdash; Цена алюминия на&nbsp;Московской бирже упала до&nbsp;185&nbsp;000&nbsp;₽ за тонну (-5% за&nbsp;неделю). Основные причины&nbsp;&mdash; рост предложения и снижение спроса в строительном секторе.
+                                        Аналитики не&nbsp;исключают дальнейшего снижения, если тенденция&nbsp;сохранится.
+                                    </p>
+                                    <p class="lmenu__date">
+                                        10.00, 24.04.2025
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <h2 class="lmenu__title">
+                                        Тестовый показ
+                                    </h2>
+                                    <p class="lmenu__info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat illum veritatis ut laborum vel hic necessitatibus quis dolorum cupiditate architecto impedit, numquam nesciunt ipsa maxime. Nemo officiis porro accusantium!
+                                    </p>
+                                    <p class="lmenu__date">
+                                        10.00, 24.04.2025
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <h2 class="lmenu__title">
+                                        Тестовый показ
+                                    </h2>
+                                    <p class="lmenu__info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat illum veritatis ut laborum vel hic necessitatibus quis dolorum cupiditate architecto impedit, numquam nesciunt ipsa maxime. Nemo officiis porro accusantium!
+                                    </p>
+                                    <p class="lmenu__date">
+                                        10.00, 24.04.2025
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <h2 class="lmenu__title">
+                                        Тестовый показ
+                                    </h2>
+                                    <p class="lmenu__info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat illum veritatis ut laborum vel hic necessitatibus quis dolorum cupiditate architecto impedit, numquam nesciunt ipsa maxime. Nemo officiis porro accusantium!
+                                    </p>
+                                    <p class="lmenu__date">
+                                        10.00, 24.04.2025
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 15L1 8L10 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 15L1 8L10 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="block-flex lmenu__buy-block">
+                    <button class="btn-reset lmenu__buy-btn">
+                        <span>
+                            Купить
+                        </span>
+                    </button>
+                </div>
+            </section>
+            <section class="charts">
+                <h2 class="charts__title">
+                    Золото
+                </h2>
+                <div class="charts__back">
+                    <div class="charts__main-block">
+                        <ul class="list-reset list-flex charts__list">
+                            <li class="charts__item">
+                                <button data-interval="minutes" class="btn-reset charts__button charts__button--active">
+                                    10 минут
+                                </button>
+                            </li>
+                            <li class="charts__item">
+                                <button data-interval="hour" class="btn-reset charts__button">
+                                    Час
+                                </button>
+                            </li>
+                            <li class="charts__item">
+                                <button data-interval="day" class="btn-reset charts__button">
+                                    День
+                                </button>
+                            </li>
+                            <li class="charts__item">
+                                <button data-interval="week" class="btn-reset charts__button">
+                                    Неделя
+                                </button>
+                            </li>
+                            <li class="charts__item">
+                                <button data-interval="month" class="btn-reset charts__button">
+                                    Месяц
+                                </button>
+                            </li>
+                            <li class="charts__item">
+                                <button data-interval="quarter" class="btn-reset charts__button">
+                                    Квартал
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="charts__prices block-flex">
+                            <div class="charts__price-stats">
+                                <ul class="charts__prices-list list-reset list-flex">
+                                    <li class="charts__prices-item item-flex">
+                                        <svg width="35" height="4" viewBox="0 0 35 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 2H34.6987" stroke="#BFCCE9" stroke-width="4"/>
+                                        </svg>
+                                        <span>
+                                            ЦЕНА
+                                        </span>
+                                    </li>
+                                    <li class="charts__prices-item item-flex">
+                                        <svg id="charts-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.00002 12.8333V1.16666M7.00002 1.16666L1.16669 6.99999M7.00002 1.16666L12.8334 6.99999" stroke="#78E66E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span id="charts-index">
+                                            (+5%)
+                                        </span>
+                                    </li>
+                                    <li class="charts__prices-item item-flex">
+                                        <svg id="charts-arrowAi" width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.27347 12.8333V1.16666M7.27347 1.16666L1.28699 6.99999M7.27347 1.16666L13.26 6.99999" stroke="#6ED7E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span id="charts-AIindex">
+                                            (+5%)
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="charts__quotes block-flex">
+                                <h3 class="charts__quotes-title">
+                                    Золото, 1г
+                                </h3>
+                                <p class="charts__quotes-time">
+                                    25.05.2024, 20:00
+                                </p>
+                                <div>
+                                    <p class="charts__quotes-price">
+                                        125, 37 &#x20bd;
+                                    </p>
+                                    <p class="charts__quotes-percent flex">
+                                        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.02207 1.31998L7.08435 13.27M7.08435 13.27L12.8865 7.26457M7.08435 13.27L1.21995 7.32538" stroke="#E66E6E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span>
+                                            (-5%)
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="charts__graph-block">
+
+                </div>
+                <button class="btn-reset charts__buy--mobile">
+                    Купить
+                </button>
+            </section>
+            <section class="metals block-flex">
+                <h2 class="metals__title">
+                    Металлы:
+                </h2>
+                <ul class="list-reset metals__list list-flex">
+                    <li class="metals__item">
+                        <button data-metal="gold" class="btn-reset metals__button btn-flex">
+                            <img src="img/gold.svg" alt="Золото">
+                            <span>
+                                Золото
+                            </span>
+                        </button>
+                    </li>
+                    <li class="metals__item">
+                        <button data-metal="platinum" class="btn-reset metals__button btn-flex">
+                            <img src="img/platinum.svg" alt="Платина">
+                            <span>
+                                Платина
+                            </span>
+                        </button>
+                    </li>
+                    <li class="metals__item">
+                        <button data-metal="silver" class="btn-reset metals__button btn-flex">
+                            <img src="img/silver.svg" alt="Серебро">
+                            <span>
+                                Серебро
+                            </span>
+                        </button>
+                    </li>
+                    <li class="metals__item">
+                        <button data-metal="palladium" class="btn-reset metals__button btn-flex">
+                            <img src="img/palladium.svg" alt="Палладий">
+                            <span>
+                                Палладий
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list list-reset list-flex">
+            <li class="footer__item">
+                <button class="btn-reset footer__btn--mobile" data-target = "footer-item-1">
+                    <img class="footer__img" src="img/info.svg" alt="Information">
+                </button>
+            </li>
+            <li class="footer__item">
+                <button class="btn-reset footer__btn--mobile" data-target = "footer-item-2">
+                    <img class="footer__img" src="img/bank.svg" alt="Banks">
+                </button>
+            </li>
+            <li class="footer__item">
+                <button class="btn-reset footer__btn--mobile" data-target = "footer-item-3">
+                    <img class="footer__img" src="img/metals.svg" alt="Metals">
+                </button>
+            </li>
+        </ul>
+    </footer>
+    <div class="modal info-modal" id="block1">
+        <div class="modal__content">
+            
+        </div>
+    </div>
+    <div class="modal bank-modal" id="block2">
+        <div class="modal__content">
+            
+        </div>
+    </div>
+    <div class="modal metals-modal" id="block3">
+        <div class="modal__content">
+            
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
