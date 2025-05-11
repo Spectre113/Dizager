@@ -180,7 +180,7 @@
     }
 
     .charts__quotes {
-        width: 20%;
+        width: 30%;
     }
     
     .charts__quotes>div {
@@ -221,6 +221,16 @@
 
     .swiper-button-prev {
         left: 28%;
+    }
+
+    .charts__quotes {
+        width: 25%;
+    }
+
+    .charts__prices {
+        min-height: 80px;
+        padding: 0 26px 0 20px;
+        justify-content: space-between;
     }
 }
 
